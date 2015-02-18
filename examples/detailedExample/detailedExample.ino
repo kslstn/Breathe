@@ -48,9 +48,9 @@ void loop(){
     Breathe.set(PIN_YELLOW, LOW, 4);
   }  
   if ((currentMillis > 20000)){
-    // After all, the Breathe.set command must be inside the loop and is thus called over and over again, calculating a different brightness every time.
-    Breathe.set(PIN_RED, HIGH, 1);
-    Breathe.set(PIN_YELLOW, HIGH, 1);
-    Breathe.set(PIN_GREEN, HIGH, 1);
+    Breathe.set(PIN_RED, HIGH, 1, 30);// the fourth argument sets a minimum brightness. The default is 0.
+    Breathe.set(PIN_YELLOW, HIGH, 1, 30);
+    Breathe.set(PIN_GREEN, HIGH, 1, 30);
+    // The Breathe.set command must be inside a loop so it's called over and over again, calculating a different brightness every time.    
   }
 }

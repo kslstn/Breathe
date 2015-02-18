@@ -22,9 +22,8 @@
 
 class Breathe{
 	public:
-		void set(int pin, int toggle = HIGH, float fadeSpeed = 0.8);
+		void set(int pin, int toggle = HIGH, float fadeSpeed = 0.8, int minBrightness = 0);
 	private:
-		float breathe(float fadeSpeed = 1, long offset = 0);
-		//float fade(float brightness, float fadeSpeed, int toggle);
+		float breathe(float fadeSpeed = 0.8, long offset = 0, int minBrightness = 0);
 };
 #endif
