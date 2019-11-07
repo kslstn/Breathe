@@ -2,7 +2,7 @@ Blinking LEDs are awesome indicators for say, letting you know the oil level in 
 
 Here's the Breathe library for you to get the same effect in your Arduino projects. If you want, you can set the speed of the effect. You don't have to.
 
-[Example video](https://www.youtube.com/edit?o=U&video_id=JGcX6KW1d2o) on YouTube
+[Example video](https://www.youtube.com/watch?v=JGcX6KW1d2o) on YouTube
 
 #How to use#
 - Download the files and put the complete Breathe folder in your Arduino libraries folder. Just search 'Arduino library' if you need help with that.
